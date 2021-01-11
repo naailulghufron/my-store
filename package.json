@@ -1,0 +1,21 @@
+{
+  "name": "my-store",
+  "version": "1.0.0",
+  "description": "My Store Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend-node-apps --exec babel-node backend-node-apps/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.7"
+  }
+}
